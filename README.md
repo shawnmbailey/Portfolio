@@ -2,12 +2,27 @@
 This is my Portfolio 
 
 # Wireframe
-
+![Wireframe](Wireframe.png)
+# Mockup
+![Mockup](Mockup.png)
 # MVP
 *Minimum Viable Product*
 
+- NavBar
+- Landing Page
+- Color Book (5 colors used on the website)
+- About Page
+- Portfolio Page
+- Resume
+- Contact Page
+
 # PMVP
  *Post Minimum Viable Product*
+ - Music Player
+ - Animations
+ - About me page seperate from Landing Page
+ - Logo
+ - Additional packages
 
  # License 
  Copyright (c) 2023 shawnmbailey
