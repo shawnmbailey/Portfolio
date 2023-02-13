@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+.nav {
+    position: absolute;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-image: linear-gradient(black, grey);
+    margin: 0px;
+    font-family: 'Inconsolata', monospace;
+  }
+  .nav li {
+    color: white;
+    padding: 4px;
+  }
+  a:visited {
+    color: red;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
