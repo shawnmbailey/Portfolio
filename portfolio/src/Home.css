@@ -8,7 +8,7 @@ body{
     background-attachment: fixed;
 }
 
-.landing{
+#Home{
  font-family: 'Inconsolata', monospace;
  color:white;
 }
@@ -53,10 +53,13 @@ cursor: pointer;
 }
 
 .headshot{
+    
     padding: 50px;
+    padding-right: 500px;
     overflow: hidden;
 }
 
 #face{
     border-radius: 100%;
+    display: flex;
 }

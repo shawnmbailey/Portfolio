@@ -1,7 +1,13 @@
-.About{
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+
+
+#About{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 #Apic{
@@ -10,9 +16,17 @@
     overflow: hidden;
 }
 
-h2{
+#title{
     display: flex;
 justify-content: center;
 color:red;
+font-family: 'Inconsolata', monospace;
+font-size: 30px;
 
+}
+
+p{
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    font-size: 19px;
 }

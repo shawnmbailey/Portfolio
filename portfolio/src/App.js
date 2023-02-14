@@ -1,11 +1,20 @@
-import './Styles.css';
-import './Navbar.css';
-
+import React from "react";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Home from "./Components/Home";
+import Portfolio from "./Components/Portfolio";
+import Resume from "./Components/Resume";
+import Navbar from "./Components/Navbar";
 
 export default function App() {
   return (
-    <div className="App">
-  
-    </div>
+    <main>
+      <Navbar />
+      <Home />
+      <About />
+      <Portfolio />
+      <Resume />
+      <Contact />
+    </main>
   );
 }

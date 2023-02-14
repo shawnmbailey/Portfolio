@@ -1,21 +1,24 @@
+import React from 'react';
 import '../Home.css';
 
 export default function Home() {
     return (
-      <div class ="landing">
-        <div class = "headshot">
+      <section id="Home">
+      <div className="landing">
+        <div className = "headshot">
         <img id ="face" src={require('../Media/Headshot.jpg')}/> 
         </div>
-        <div class='greeting'>
+        <div className='greeting'>
         <h1>Hello,</h1>
         <h2>I'm Shawn Bailey</h2>
         <h3>I am a Web Developer.</h3>
-        <div class="btn">
+        <div className="btn">
           <button id="navigate">
-            View My Work ➡
+            <a href ="#projects">View My Work ➡</a>
           </button>
         </div>
         </div>
       </div>
+      </section>
     );
   }

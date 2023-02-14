@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+#btn2 {
+    font-family: 'Inconsolata', monospace;
+    border: 10px solid red;
+    background-color: grey;
+    color: black;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#btnCon{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
