@@ -1,8 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 #projects{
-     font-family: 'Inconsolata', monospace,;
-    text-decoration: underline;
-    font-size: 24px;
+    background: linear-gradient(to bottom, red 65%, grey);
+    margin: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#projectCon{
+    border-bottom-color:  black;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    margin-bottom: 10%;
+    width: 250px;;
+    margin-left:  auto;
+    margin-right:  auto;
+    font-family: 'Inconsolata', monospace,;
+    font-size: 40px;
+    color: white;
+    text-shadow:
+		-5px -1px 0 #000,
+		5px -1px 0 #000,
+		-5px 1px 0 #000,
+		5px 1px 0 #000;
+
+}
+
+#all{
+    font-family: 'Inconsolata', monospace;
+    border: 10px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right:20px;
+}
+
+#js{
+    font-family: 'Inconsolata', monospace;
+    border: 10px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+#react{
+    font-family: 'Inconsolata', monospace;
+    border: 10px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.pBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -8%;
+}
+#calc{
+display: flex;
+
+}
+
+#dark{
+width:15em;
+height:15em;
+
+}
+
+#light{
+width:15em;
+height:15em;
+
+}
+
+#game{
+ width:15em;
+ height:15em;
+margin-left:18%
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px ;
+    margin-bottom:30px ;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.calcImg{
+    display: flex;
 
 }

@@ -4,7 +4,7 @@ export default function Resume() {
     <section id = "resume">
     <div id="btnCon">
       <button id ="btn2">
-      Resume
+      <a href="https://drive.google.com/file/d/19WH0pJyXKWQvvRO6Apw-DuV2wvDGHipZ/view?usp=sharing">Resume</a>
       </button>
     </div>
     </section>

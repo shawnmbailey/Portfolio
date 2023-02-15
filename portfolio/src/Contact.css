@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+#contact{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.cntct{
+    margin-top:15%;
+}
+
+#hire{
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    border: solid crimson 5px;
+    background-color: white;
+    margin-bottom: 15%;
+}
+
+#info{
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    border: solid crimson 5px;
+    background-color: white;
+    text-decoration-style: solid;
+    font-size: 20px;
+}
+
+#hireme{
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    border: solid black 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-style:italic;
+    font-size: 30px;
+    margin-bottom: 20%;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: -15%;
+    font-size: 50px;
+    margin-left: 10%;
+}
+
+.Github{
+margin-right: 10%;
+}
+
+.linkedin{
+    margin-right: 10%;
+}
+
+.email{
+    margin-right: 10%;
+}
+
+
