@@ -67,10 +67,10 @@
     justify-content: center;
     margin-top: -8%;
 }
-#calc{
+/* #calc{
 display: flex;
 
-}
+} */
 
 #dark{
 width:15em;
@@ -106,5 +106,6 @@ ul{
 
 .calcImg{
     display: flex;
-
+    width: 100vw;
+    justify-content: center;
 }

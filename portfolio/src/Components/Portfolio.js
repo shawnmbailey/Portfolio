@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Portfolio.css';
+import ImgWrapper from './ImgWrapper';
 
 export default function Portfolio() {
     return (
@@ -17,7 +18,11 @@ export default function Portfolio() {
           <ul>
             <div id='calc'>
             <li className="calcImg">
-              <img id ="dark" src={require('../Media/Darkmode.png')}/><img id ="light" src={require('../Media/LightMode.png')}/><img id ="game" src={require('../Media/SEV9.png')}/></li>
+              <div style={{display:'flex', marginRight: '10%'}}>
+              <ImgWrapper link={"https://github.com/shawnmbailey/CalculatorProject"} type={"dark"}imgSrc={require('../Media/Darkmode.png')}/><ImgWrapper link={"https://github.com/shawnmbailey/CalculatorProject"} type={"light"}imgSrc={require('../Media/LightMode.png')}/>
+              </div>
+              <ImgWrapper link={"https://github.com/shawnmbailey/Game-Project"} type={"game"}imgSrc={require('../Media/SEV9.png')}/>
+              </li>
             </div>
           </ul>
         </div>
